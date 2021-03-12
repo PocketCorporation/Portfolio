@@ -1,11 +1,4 @@
-*{
-    box-sizing: border-box;
-}
 
-body {
-    margin: 0;
-    padding: 0;
-}
 
 .navbar{
     display: flex;
@@ -13,6 +6,7 @@ body {
     align-items: center;
     background-color: #333;
     color: white;
+    
 }
 
 .brand-title{
@@ -66,6 +60,7 @@ body {
 
     .navbar-links{
         display: none;
+        width: 100%;
     }
 
     .navbar {
@@ -90,3 +85,42 @@ body {
         display:flex;
     }
 }
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item{
+    flex: 1;
+    text-align: center;
+}
+
+
+@media (min-width: 600px) {
+    
+
+    .group {
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-direction: row;
+       
+    }
+
+    .item{
+        text-align: left;
+    }
+}
+
+footer{
+    text-align: center;
+}
+
+.group img{
+    width: 80%;
+    
+}
+
