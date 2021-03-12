@@ -20,73 +20,115 @@
         <div class="navbar-links">
           <ul >
             <li >
-              <a href="#">Introduction</a>
+              <a href="#introduction">Introduction</a>
             </li>
             <li >
-              <a  href="#">About Me</a>
+              <a  href="#about">About Me</a>
             </li>
             <li >
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             <li >
-              <a href="#">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
+
+    
     <main>
-      <section style="height: 400px; text-align: center; align-items: center; margin-top: 100px;">
+      <section class="group">
+        <div class="item">
         <h1 id="#introduction">Introduction</h1>
         <p>
-          Intro section Who you are Where you are What you do and what makes you
-          special
+          I'm a Californian coder that posseses a level of specificity that makes rewriting table top board game instruction my idea of fun
         </p>
-      </article>
-    </main>
-    <section style="height: 400px; text-align: center; align-items: center; margin-top: 100px;">
+        </div>
+      </section>
+    
+    <section class="group">
+      <div class="item">
       <h2 id="#about">About Me</h2>
       <p>
-        About Me section Demonstrate your passion for the web Demonstrate your
-        desire to work on a team with great programmers Show your personality
-        outside of coding List the services that you can provide (or want to
-        provide) to a client
+        I have a high amount of passion for the web.
+        People lucky enough to complain about sitting infront of a computer for 8 hours who try to advize me don't realize that I already do for 24.<br>
+        I want to be able to provide services from full stack react to wordpress and more. <br>
+        I hope to get the chance to work on a team with great programmers so that I can further learn from them.<br>
+        Outide of coding, there are lots of problems that I know how to solve and seek to put myself in a position to actually do so as a consultant.
       </p>
+      </div>
     </section>
-    <section style="height: 400px; text-align: center; align-items: center; margin-top: 100px;">
-      <h2 id="#contact">Contact</h2>
-      <form action="https://formspree.io/f/xnqoedaq" method="POST">
-        <label>
-          Your email:
-          <br>
-          <input type="email" name="_replyto" />
-        </label><br>
-        <label>
-          Your message:
-          <br>
-          <textarea name="message"></textarea>
-        </label>
+    
+    
+    <section class="group">
+      
+      <article class="pro item" id="projects">
+        <img src="placeholder.png" alt="placeholder">
+        <h3>Invisible Ink</h3>
+        <p>This is a description of the Project I built. This will contain the project’s purpose, your approach to building the project and who it’s for, and what you learned from building it.
+          This is a neumorphic text transition demo</p>
+          <p>Skills Used: HTML, CSS</p>
+          <a href="https://github.com/PocketCorporation/InvisibleInk ">Github</a><br/>
+          <a href="https://pocketcorporation.github.io/InvisibleInk/">Invisible Ink</a>
+        </p>
+     
+      </article>
 
-        <!-- your other form fields go here -->
-        <br>
-        <button type="submit">Send</button>
-      </form>
+      <article class="pro item" >
+        <img src="placeholder.png" alt="placeholder">
+        <h3>Invisible Ink</h3>
+        <p>This is a description of the Project I built. This will contain the project’s purpose, your approach to building the project and who it’s for, and what you learned from building it.
+          This is a neumorphic text transition demo</p>
+          <p>Skills Used: HTML, CSS</p>
+          <a href="https://github.com/PocketCorporation/InvisibleInk ">Github</a><br/>
+          <a href="https://pocketcorporation.github.io/InvisibleInk/">Invisible Ink</a>
+        </p>
+      
+      </article>
     </section>
-    <br>
-    <section style="height: 400px; text-align: center; align-items: center" >
-      <h2>Projects</h2>
-      <p>
-        Latest project - Invisible Ink
-        Neumorphic text transition demo<br>
-        <a href="https://github.com/PocketCorporation/InvisibleInk ">Github</a><br/>
-        <a href="https://pocketcorporation.github.io/InvisibleInk/">Invisible Ink</a>
-      </p>
-    </section>
+    
+    <section id="contact" class="group">
+
+      <div class="item">
+        <h2 id="#contact">Contact Form</h2>
+        <form action="https://formspree.io/f/xnqoedaq" method="POST">
+          <label>
+            Your email:
+            <br>
+            <input type="email" name="_replyto" />
+          </label><br>
+          <label>
+            Your message:
+            <br>
+            <textarea name="message"></textarea>
+          </label>
+  
+          <!-- your other form fields go here -->
+          <br>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="item">
+      <h2>Contact Me</h2>
+      <p><br>
+          <!-- the linkedin profile url is a www.link. I tried adding the 'https://' link before, or maybe this is the edit, but it didn't work at the time.-->
+      <a href="https://linkedin.com/in/khafrehilliard" target = "_blank">Linkedin</a><br>
+          <a href="https://github.com/PocketCorporation">PocketCorporation@Github</a><br>
+          <a href="https://pocketcorporation.github.io/Thinkful/">Thinkful</a><br>
+      <a href="https://pocketcorporation.github.io/InvisibleInk/">Invisible Ink</a><br>
+          <a href="mailto:khafre1@hotmail.com">Khafre1@hotmail.com</a></p>
+        </div>
+      </section>
+   
+    </main>
     <!-- modify this form HTML and place wherever you want your form -->
-    <footer style="height: 400px; text-align: center; align-items: center">
+    <footer>
       <p>© Khafre Hilliard</p>
     </footer>
-    <script src="./app.js"></script>
+  
+    <script src="script.js"></script>
   </body>
 </html>
 
